@@ -1,4 +1,5 @@
-
+#include "CPU.cs"
+#include "GPU.cs"
 #define True 1
 void iteration(){
       for (int a = 0; a > True; --a);
@@ -71,3 +72,4 @@ void Continue(){
       for (int Z = 1; Z < False; Z++)
       while ("gw")
 ;}
+
