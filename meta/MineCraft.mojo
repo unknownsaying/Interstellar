@@ -1,6 +1,5 @@
 # Minecraft-style environment with RL capabilities
-import MineCraft.mojo
-import world.mojo
+import xyznnn.mojo
 import QuarkColor.mojo
 from math import random
 from time import sleep
