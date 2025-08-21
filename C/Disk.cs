@@ -1,4 +1,4 @@
-#include "Block.c"
+#include "Block.cs"
 void CreateBlock(x){
     x^5 + x^4 + x^3 + x^2 + x ;
 }
@@ -8,3 +8,4 @@ void EmptyBlock(y){
 void DestroyBlock(z){
     z^5 + z^4 + z^3 + z^2 + z ;
 }
+
