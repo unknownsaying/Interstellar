@@ -6,7 +6,7 @@ Public Interface IC2H4
     ReadOnly Property HydrogenCount As Integer
 End Interface
 
-Public Class C2H4
+Class C2H4
     Implements IC2H4
 
     Public ReadOnly Property CarbonCount As Integer Implements IC2H2.CarbonCount
@@ -18,7 +18,7 @@ Public Class C2H4
     End Property
 End Class
 
-Public Class C6H8
+Class C6H8
     Implements IC2H4
 
     Public ReadOnly Property CarbonCount As Integer Implements IC2H2.CarbonCount
@@ -30,7 +30,7 @@ Public Class C6H8
     End Property
 End Class
 
-Public Class C6H2
+Class C6H2
     Implements IC2H4
 
     Public ReadOnly Property CarbonCount As Integer Implements IC2H2.CarbonCount
@@ -60,3 +60,4 @@ Module Program
     End Sub
 End Module
 Console.WriteLine(C2H4,C6H8,C14H12)
+
