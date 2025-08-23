@@ -87,7 +87,7 @@ function CylinderXYZ
             [0, 1, 0, 0]]
 
     const element14 =
-        [[0, 0, 1, 0], 
+           [[0, 0, 1, 0], 
             [0, 1, 0, 1], 
             [1, 0, 0, 0], 
             [0, 1, 0, 0]]
@@ -136,3 +136,4 @@ Sub Cylinder
     return [CylinderXY, CylinderYZ, CylinderZX, CylinderXYZ, X, Y, Z]
 End Sub
 Console.WriteLine(CylinderXY,  CylinderYZ,  CylinderXZ,  CylinderXYZ)
+
